@@ -1,0 +1,3 @@
+esteWatch:
+  options:
+    dirs: ['src/**/']

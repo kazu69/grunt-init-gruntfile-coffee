@@ -1,0 +1,3 @@
+uglify:
+  options:
+    mangle: false
