@@ -1,7 +1,4 @@
-coffee:
+module.exports =
   all:
     files:
-      'js/*.js': ['src/**/*.coffee']
-    options:
-      bare: true
-      expand: false
+      'applicatiln.js': ['**/*.coffee']
