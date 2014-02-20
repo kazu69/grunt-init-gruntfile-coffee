@@ -1,3 +1,7 @@
-esteWatch:
+module.exports =
   options:
-    dirs: ['src/**/']
+    dirs: ['.']
+    livereload:
+      enabled: true
+      extensions: ['coffee', 'sass', 'js', 'css', 'html']
+      port: 35729
