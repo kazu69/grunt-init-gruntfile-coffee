@@ -2,8 +2,8 @@ module.exports =
   default: [
     'coffeelint',
     'coffee',
-    'concat',
     'uglify',
+    'concat',
     'clean',
     'esteWatch'
   ]

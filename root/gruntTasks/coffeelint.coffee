@@ -1,7 +1,7 @@
 module.exports = ->
   all:
     files:
-      src: [ 'coffee/**/*.coffee' ]
+      src: [ 'src/**/*.coffee' ]
 
   gruntfile:
     files:
