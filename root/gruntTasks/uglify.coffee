@@ -1,6 +1,10 @@
 module.exports = ->
   all:
-    files:
-      'application.js': ['**/*.js']
+    files: [{
+      expand: true,
+      cwd: 'tmp',
+      src: '**/**.js',
+      dest: 'tmp'
+    }]
   options:
     mangle: false

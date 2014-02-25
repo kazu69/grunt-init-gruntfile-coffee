@@ -1,3 +1,4 @@
-default:
-  options:
-    message: 'Default finished'
+module.exports = ->
+  default:
+    options:
+      message: 'Default finished'

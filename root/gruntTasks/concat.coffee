@@ -1,6 +1,7 @@
-concat:
+module.exports = ->
   options:
     separator: ';'
+    stripBanners: true
   dist:
-    src: ['src/**/*.js']
+    src: ['tmp/**/*.js']
     dest: 'javascripts/application.js'

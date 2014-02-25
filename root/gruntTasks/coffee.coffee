@@ -1,4 +1,8 @@
 module.exports =
   all:
-    files:
-      'applicatiln.js': ['**/*.coffee']
+    expand: true
+    flatten: true
+    cwd: 'coffee'
+    src: ['**/*.coffee']
+    dest: 'tmp/'
+    ext: '.js'

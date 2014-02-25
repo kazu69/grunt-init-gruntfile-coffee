@@ -47,6 +47,7 @@ exports.template = (grunt, init, done) ->
       'grunt-contrib-concat': '~0.1.2'
       'grunt-contrib-uglify': '~0.3.2'
       'grunt-notify': '~0.2.17'
+      'grunt-contrib-clean': '~0.5.0'
       'load-grunt-config': '~0.7.1'
       'time-grunt': '~0.2.9'
       'grunt-newer': '~0.6.1'
